@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return render(request, 'myapp/index.html')
+    return render(request, 'index.html')
 
 def service_details(request):
-    return render(request, 'myapp/service-details.html')
+    return render(request, 'service-details.html')
